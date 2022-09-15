@@ -8,7 +8,7 @@
 #include "autobot/Num.h"
 #include "std_msgs/String.h"
 
-// #include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
 #include <opencv2/highgui/highgui.hpp>
 
 #include <image_transport/image_transport.h>
