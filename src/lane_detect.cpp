@@ -15,8 +15,8 @@
 #include <cv_bridge/cv_bridge.h>
 #include <sensor_msgs/image_encodings.h>
 
-using namespace cv;
-using namespace std;
+// using namespace cv;
+// using namespace std;
 
 void image_receive(const sensor_msgs::Image::ConstPtr& msg)
 {
