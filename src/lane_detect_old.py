@@ -160,5 +160,5 @@ def callbackFunction(image):
 
 while not rospy.is_shutdown():
 	rospy.init_node("topic_receiver",anonymous=True)
-	lis_scan = rospy.Subscriber("/camera/rgb/image_raw", Image, callback=callbackFunction)
+	lis_scan = rospy.Subscriber("/camera/image", Image, callback=callbackFunction)
 	rospy.spin()
